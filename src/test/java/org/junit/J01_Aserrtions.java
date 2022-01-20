@@ -57,7 +57,7 @@ public class J01_Aserrtions {
         String str="javacanlara selam olsun ayagınza das degmesin";
         String olusan[]=str.split(" ");
         String  beklenen[]= {"javacanlara", "sela", "olsun", "ayagınza", "das", "degmesin"};
-        assertArrayEquals(beklenen,olusan,"agam arraylerin farklı");//passed
+        assertArrayEquals(beklenen,olusan,"agam arraylerin farklı");//passed--
         assertArrayEquals(beklenen,olusan,"agam arraylerin farklı");//failed-->array contents differ at index [1], expected: <sela> but was: <selam>
     }
 
