@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class HesapMakinesiTest {
 
     @org.junit.jupiter.api.Test
-    @DisplayName("Babalara geldik..")  //Son kullaniciya bilgilendirilmesi icin görecegi
+    @DisplayName("Babalara geldik..")  //Son kullaniciya bilgilendirilmesi icin görecegi--
                                        // etiketi create eder ve konsola basar.
     void topla() {
         // varsayiyorum     beklenen deger              aktüel deger
