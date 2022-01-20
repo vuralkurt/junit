@@ -51,14 +51,28 @@ public class J01_Aserrtions {
         boolean beklenen=false;
         assertEquals(olusan, beklenen,"strin degeri barındırmaz");
     }
+   // @Test
+   // @DisplayName("arrays test")
+    // /void testArray(){
+    //    String str="javacanlara selam olsun ayagınza das degmesin";
+    //    String olusan[]=str.split(" ");
+    //    String  beklenen[]= {"javacanlara", "sela", "olsun", "ayagınza", "das", "degmesin"};
+//
+    //    assertArrayEquals(beklenen,olusan,"agam arraylerin farklı");//passed--
+    //    assertArrayEquals(beklenen,olusan,"agam arraylerin farklı");//failed-->array contents differ at index [1], expected: <sela> but was: <selam>
+    //}
+
+
     @Test
-    @DisplayName("arrays test")
-    void testArray(){
-        String str="javacanlara selam olsun ayagınza das degmesin";
+    @DisplayName("arrays test.Yirttik abicim yirttik")
+    void testArrays(){
+        String str = "javacanlara selam olsun ayagınza das degmesin";
         String olusan[]=str.split(" ");
-        String  beklenen[]= {"javacanlara", "sela", "olsun", "ayagınza", "das", "degmesin"};
-        assertArrayEquals(beklenen,olusan,"agam arraylerin farklı");//passed--
-        assertArrayEquals(beklenen,olusan,"agam arraylerin farklı");//failed-->array contents differ at index [1], expected: <sela> but was: <selam>
+        String beklenen[]={"javacanlara","sela", "olsun", "ayagınza", "das", "degmesin"};
+
+        assertArrayEquals(beklenen,olusan,"arrayler farkli");
+       // assertArrayEquals(beklenen,olusan,"arrayler farkli");
+
     }
 
 }
